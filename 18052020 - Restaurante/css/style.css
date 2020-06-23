@@ -1,0 +1,99 @@
+/*Se que me falta la parte de trabajar con clases*/
+
+header{
+    padding-bottom: 20px;
+    border: 1px;
+    border-bottom: 2px solid lightgray;
+    margin: 0px 40px;
+}
+
+nav{
+    float: left;
+    width: 300px;
+    padding: 0px 15px 15px 0px;
+    line-height: 30px;   
+}
+
+main{
+    float: left;
+    width: 610px;
+    padding: 0px 5px 5px 25px;
+    border-left: 1px solid lightgray;
+}
+
+footer{
+    padding: 0px 20px;
+    overflow:hidden;
+    background-color: #b4b4b4f5;
+}
+
+#contenedor{
+    overflow: hidden;
+    margin-top: 30px;
+    margin: 10px 40px;
+}
+#redes #contacto{
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+#contenedor-footer{
+    float: right;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+footer div a, footer div div{
+    color:white;
+    text-align: right;
+    text-decoration: none;
+}
+
+#logo{
+    background-image: url("../img/logo-web.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    float:left;
+}
+
+h1, h2, h3, a, article, #encuesta{
+    font-family: 'Raleway', sans-serif;
+}
+
+article{
+    padding-left: 20px;
+}
+
+#redes{
+    margin-top: 10px;
+}
+
+div nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#carta{
+    width: 49%;
+    float: left;
+}
+#encuesta{
+    width: 49%;
+    float: right;
+}
+
+
+#menu{
+    overflow: hidden;
+}
+
+div h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+div h2 a:hover{
+    font-size: 25px;
+}

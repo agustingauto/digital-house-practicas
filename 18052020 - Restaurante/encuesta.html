@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-encuesta.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html">Volver al home</a>
+    <h1>Encuesta al cliente</h1>
+    <form>
+        <h2>¿De dónde sos?</h2>
+        <select name="pais" id="pais">
+            <option value="" selected="true" disabled="disabled">Seleccioná una opción</option>
+            <option value="CP">Capital Federal</option>
+            <option value="PBA">Buenos Aires</option>
+            <option value="MZA">Mendoza</option>
+            <option value="CBA">Córdoba</option>
+            <option value="SFE">Santa Fé</option>
+        </select>
+
+        <h2>¿Qué te pareció la iluminación del ambiente?</h2>
+        <input type="checkbox" name="iluminacion" value="good"> Muy acorde<br>
+        <input type="checkbox" name="iluminacion" value="notenough"> Buena pero podría mejorar<br>
+        <input type="checkbox" name="iluminacion" value="bad"> Mala
+
+        <h2>¿Qué tipo de plato fue el que más te gustó?</h2>
+        <input type="checkbox" name="plato" value="entrada">Entrada<br>
+        <input type="checkbox" name="plato" value="platoprinicipal">Plato principal<br>
+        <input type="checkbox" name="plato" value="postre">Postre<br>
+        <input type="checkbox" name="plato" value="otros">Otros
+
+        <h2>¿Recomendarías el lugar?</h2>
+        <input type="radio" name="recomendacion" value="S">Si
+        <input type="radio" name="recomendacion" value="N">No
+
+        <h2>¿Por qué?</h2>
+        <textarea name="why" id="why" cols="80" rows="5">Escriba aquí sus comentarios...</textarea>
+
+        <p>
+            <h2>Dejanos tus datos y nos pondremos en contacto con vos</h2>
+            <label for="name">Nombre: </label>
+            <input type="name" id="name" name="name" value="Tu nombre" required>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="name" value="Tu email" required>
+        </p>
+
+        <button type="submit" id="enviar">Enviar</button>
+        <button type="reset" id="resetear">Resetear</button>
+    </form>
+</body>
+</html>

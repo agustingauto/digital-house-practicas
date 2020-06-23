@@ -1,0 +1,32 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 20px;
+}
+
+body{
+    padding-left: 30px;
+}
+
+#enviar{
+    border-radius: 5px;
+    background-color: goldenrod;
+    color: white;
+    border: 0px;
+    width: 400px;
+    height: 30px;
+}
+
+#resetear{
+    border-radius: 5px;
+    background-color: white;
+    color: goldenrod;
+    border-color: goldenrod;
+    width: 400px;
+    height: 30px;
+}
