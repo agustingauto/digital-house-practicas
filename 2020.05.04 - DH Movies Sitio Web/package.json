@@ -1,0 +1,11 @@
+{
+  "name": "primerproyectoconnpminit",
+  "version": "1.0.0",
+  "description": "prueba uno con npm init",
+  "main": "app_hard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
