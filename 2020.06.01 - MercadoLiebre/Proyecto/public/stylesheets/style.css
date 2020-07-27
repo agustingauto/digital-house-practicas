@@ -1,0 +1,58 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+  background-color: #EAC926;
+  height: 30vh;
+}
+
+#logoML{
+  height: 7vh;
+  width: 100%;
+}
+#first-row{
+  padding-top: 4%;
+  height: 10vh;
+  display: flex;
+}
+
+.form-control{
+  height: 7vh;
+  width: 100%;
+}
+
+input.form-control[placeholder] {
+  font-size: 40px;
+}
+
+#second-row, #third-row{
+  height: 10vh;
+  display:flex;
+  flex-direction: column;
+}
+
+p{
+  font-size: 40px;
+  align-self: center;
+  padding-top: 5%;
+}
+
+
+.fa-1x {
+  font-size: 1.5rem;
+  }
+  .navbar-toggler.toggler-example {
+  cursor: pointer;
+  }
+  .dark-blue-text {
+  color: #0A38F5;
+  }
+  .dark-pink-text {
+  color: #AC003A;
+  }
+  .dark-amber-text {
+  color: #ff6f00;
+  }
+  .dark-teal-text {
+  color: #004d40;
+  }

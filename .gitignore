@@ -1,6 +1,14 @@
 .DS_Store
+# Dependency directories
+node_modules/
+**/node_modules/
+
+
 2020.05.18 - Restaurante/docs
 2020.05.18 - Restaurante/img
 2020.05.20 - Kitchening/templates
 2020.05.20 - Kitchening/docs
 2020.05.20 - Kitchening/images
+2020.06.01 - MercadoLiebre/docs
+2020.06.03 - TemplateEngine/materiales
+2020.06.08 - GET y POST - ML/docs
